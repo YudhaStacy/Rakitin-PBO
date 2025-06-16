@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 6.0.0-dev+20250214.18e7a05c45
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 15, 2025 at 10:34 AM
+-- Generation Time: Jun 16, 2025 at 03:04 AM
 -- Server version: 8.4.3
--- PHP Version: 8.3.16
+-- PHP Version: 8.4.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -57,12 +57,12 @@ CREATE TABLE `barang` (
 --
 
 INSERT INTO `barang` (`id_barang`, `nama_barang`, `stok`, `satuan`, `harga_beli`, `harga_jual`, `status`) VALUES
-('BRG001', 'Mouse Logitech', 40, 'pcs', 75000.00, 75000.00, NULL),
-('BRG002', 'Keyboard Mechanical', 30, 'pcs', 250000.00, 250000.00, NULL),
-('BRG003', 'Monitor 24 Inch', 0, 'unit', 1400000.00, 1400000.00, NULL),
-('BRG004', 'Flashdisk 32GB', 1, 'pcs', 50000.00, 50000.00, NULL),
-('BRG005', 'Kabel HDMI 2m', 80, 'pcs', 30000.00, 35000.00, NULL),
-('BRG006', 'kayu', 10, 'pcs', 100000.00, 110000.00, 'Tersedia');
+('BRG001', 'Mouse Logitech', 40, 'pcs', 75000.00, 75000.00, 'Aktif'),
+('BRG002', 'Keyboard Mechanical', 30, 'pcs', 250000.00, 250000.00, 'Aktif'),
+('BRG003', 'Monitor 24 Inch', 0, 'unit', 1400000.00, 1400000.00, 'Aktif'),
+('BRG004', 'Flashdisk 32GB', 1, 'pcs', 50000.00, 50000.00, 'Aktif'),
+('BRG005', 'Kabel HDMI 2m', 80, 'pcs', 30000.00, 35000.00, 'Aktif'),
+('BRG006', 'kayu', 10, 'pcs', 100000.00, 110000.00, 'Aktif');
 
 -- --------------------------------------------------------
 
